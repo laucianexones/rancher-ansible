@@ -1,0 +1,6 @@
+token: my-shared-secret
+tls-san:
+  - rancher.test.local
+
+node-taint:
+  - "CriticalAddonsOnly=true:NoExecute"
